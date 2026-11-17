@@ -68,12 +68,14 @@ Scope, deliverables, acceptance criteria, access requirements, and support arran
 
 ## Discuss a Project
 
-For now, use the [project inquiry discussion](https://github.com/Franka001/Franka001/issues/new?title=Project%20inquiry) to start a conversation. GitHub issues in this public repository are public: share only a high-level overview, not credentials, proprietary data, or confidential business details.
+Have a data integration, reporting, or automation challenge? Email [admin@zaryndata.onmicrosoft.com](mailto:admin@zaryndata.onmicrosoft.com) to discuss a scoped assessment or pilot.
 
 Include:
 - Your industry and main integration or reporting challenge
 - The source systems involved, without sensitive details
 - Your desired timeline
+
+Please do not send passwords, access tokens, or confidential datasets in an initial inquiry.
 
 ---
 Zaryn Data Engineering | Manufacturing & Wholesale Distribution | Microsoft Data Stack
