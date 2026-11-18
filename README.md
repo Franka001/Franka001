@@ -1,81 +1,93 @@
 # Zaryn Data Engineering
-### Microsoft Data Engineering for Manufacturing & Wholesale Distribution
+### Practical Data Solutions for Manufacturing & Wholesale Distribution
 
-Connect operational data. Build reliable pipelines. Deliver reporting your business can trust.
+Connect your operational data. Reduce manual reporting. Make business metrics easier to trust.
 
-I'm Franka, founder of Zaryn Data Engineering, based in Anna, Texas. I help manufacturers and wholesale distributors connect operational systems, engineer data pipelines, and turn production, inventory, purchasing, and sales data into trusted reporting using Microsoft technologies.
+I'm Franka, founder of Zaryn Data Engineering in Anna, Texas. I provide independent, project-based data engineering services for smaller manufacturers and wholesale distributors with limited internal data engineering capacity.
 
-## Business Challenges I Help Address
+My professional background includes data engineering work in healthcare, aerospace, and body-shop businesses. Zaryn's current service focus is manufacturing and wholesale distribution.
 
-- Operational data spread across databases, files, and business applications
-- Recurring spreadsheet consolidation and manual reporting
-- Inconsistent data definitions across departments
-- Data pipelines that need better validation, monitoring, and recovery
-- Existing SQL Server and SSIS integrations that need improvement
-- Operational exceptions that need notifications or approval workflows
+[Discuss a project](mailto:admin@zaryndata.onmicrosoft.com) · [Explore the showcases below](#portfolio-showcases)
 
-## Services
+## When to Bring Me In
 
-| Service | Focus |
-|---|---|
-| Data Integration & Engineering | Ingestion, transformation, validation, and orchestration across databases, files, and APIs |
-| Microsoft Fabric & Azure Analytics | Lakehouse and warehouse solutions with business-ready data models |
-| SQL Server & SSIS Modernization | Assessment, optimization, documentation, and phased modernization |
-| Operational Analytics | Data preparation and Power BI reporting for manufacturing and distribution |
-| Workflow Automation | Notifications, approvals, and exception workflows using Power Automate and Azure Logic Apps |
-| Pipeline Reliability & Support | Troubleshooting, data-quality checks, monitoring, and operating documentation |
+- Your team combines database extracts and spreadsheets to prepare recurring reports.
+- Inventory, purchasing, sales, or production reports disagree across departments.
+- An existing SQL Server or SSIS process needs investigation, improvement, or documentation.
+- You need a defined integration or reporting project without hiring a full-time data engineer.
+- Your team needs a practical modernization assessment before committing to a new platform.
 
-## Industry Focus
+## Focused Project Services
 
-### Manufacturing
-Production reporting, downtime and scrap analysis, inventory visibility, and consistent operational metrics.
+| Engagement | Scope we agree together | Typical deliverables |
+|---|---|---|
+| Data & Reporting Assessment | One operational reporting or integration problem | Source inventory, process map, risks, and a prioritized implementation proposal |
+| Integration & Reporting Pilot | A defined set of sources and business questions | Data transformations, validation checks, analytical outputs, and setup documentation |
+| SQL Server & SSIS Improvement | A specified workload or failure pattern | Findings, agreed code changes, reconciliation checks, and recovery instructions |
+| Operational Workflow Automation | A defined notification, approval, or exception process | Agreed workflow, error-handling approach, and handover documentation |
 
-### Wholesale Distribution
-Inventory availability, purchasing visibility, sales orders, warehouse reporting, and fulfillment exceptions.
+Each engagement is scoped to solo delivery. Source access, acceptance criteria, schedule, licensing, and support boundaries are agreed before work begins. I work with the existing environment where appropriate; modernization is a decision, not a default requirement.
 
-These are areas of service focus, not claims of completed client engagements.
+## Portfolio Showcases
 
-## Featured Portfolio Project
+These examples make the code, business rules, and reporting outputs available for inspection without requiring visitors to provision a cloud environment.
 
-### Manufacturing Analytics
+### 1. Wholesale Inventory & Fulfillment Analytics
 
-Explore my manufacturing-focused portfolio repository, which presents work around Microsoft Fabric, SQL, PySpark, Python, Power Automate, and Power BI. Refer to the repository for its current artifacts and documentation.
+How should partial shipments, cancellations, and promised dates affect fulfillment reporting?
 
-[Explore the manufacturing analytics project](https://github.com/Franka001/zaryn-manufacturing-analytics)
+The local Python implementation calculates outstanding quantities and on-time fulfillment measures from synthetic order and shipment data. Tests cover expected results, invalid shipment records, and repeatable output. The broader inventory architecture is documented as a future extension.
 
-Portfolio work is not presented as a production client deployment or evidence of verified client results.
+![Zaryn wholesale fulfillment reporting preview](https://raw.githubusercontent.com/Franka001/zaryn-distribution-inventory-analytics/main/reports/dashboard.png)
+
+[View code and setup](https://github.com/Franka001/zaryn-distribution-inventory-analytics) · [Read the reporting notes](https://github.com/Franka001/zaryn-distribution-inventory-analytics/tree/main/reports)
+
+### 2. Integration Modernization & Reconciliation
+
+How can a replacement load be checked for correctness and recover safely after a failure?
+
+The Python/SQLite reference implementation demonstrates incremental updates and deletes, checkpointing, full-state reconciliation, and transaction rollback. The assessment checklist connects these engineering controls to a proposed SQL Server and SSIS modernization engagement.
+
+![Zaryn modernization data-state reporting preview](https://raw.githubusercontent.com/Franka001/zaryn-ssis-modernization/main/reports/dashboard.png)
+
+[View code and setup](https://github.com/Franka001/zaryn-ssis-modernization) · [Read the reporting notes](https://github.com/Franka001/zaryn-ssis-modernization/tree/main/reports)
+
+### 3. Manufacturing Operations Analytics
+
+How can operational source data be organized into a documented analytics workflow?
+
+Explore the existing SQL scripts, sample-data assets, project structure, and proposed Fabric analytics architecture. The repository separates available artifacts from implementation and validation work still to be completed.
+
+[Explore the manufacturing project](https://github.com/Franka001/zaryn-manufacturing-analytics)
+
+### Evidence and Scope
+
+Portfolio demonstrations are separate from my professional employment history and are not presented as Zaryn client deployments. The two reporting previews are static Python-generated PNGs based on synthetic snapshots, not Power BI screenshots. The modernization runtime is SQLite, not SSIS or SQL Server. Proposed Microsoft cloud architectures are design work; no deployed ADF/Fabric environment, production scale, or client savings are claimed. Each repository documents its implementation scope and limitations.
 
 ## Microsoft Technology Focus
 
 | Area | Technologies |
 |---|---|
-| Data Platforms | Microsoft Fabric, Azure Data Lake Storage, SQL Server |
-| Integration & Orchestration | Azure Data Factory, SQL Server Integration Services (SSIS) |
-| Data Engineering | SQL, PySpark, Python |
-| Workflow Automation | Power Automate, Azure Logic Apps |
-| Analytics & Reporting | Power BI |
+| Data platforms | Microsoft Fabric, Azure Data Lake Storage, SQL Server |
+| Integration | Azure Data Factory, SQL Server Integration Services (SSIS) |
+| Transformation | SQL, PySpark, Python |
+| Automation | Power Automate, Azure Logic Apps |
+| Business reporting | Power BI |
 
-Technology choices are guided by the business requirements and existing environment—not by a need to use every tool in one solution.
+This is my service technology focus, not a claim that every tool is implemented in each showcase.
 
-## Engagement Approach
+## How We Work Together
 
-1. Discovery — define the business problem, stakeholders, and source systems.
-2. Assessment — review data availability, quality, dependencies, and constraints.
-3. Scoped pilot — implement and validate an agreed use case.
-4. Delivery & handover — document the solution, operating procedures, and next steps.
+1. Define the problem and the business decisions the output must support.
+2. Review source access, data quality, dependencies, and constraints.
+3. Agree a bounded scope, deliverables, acceptance checks, and price.
+4. Implement, validate, document, and hand over the agreed solution.
 
-Scope, deliverables, acceptance criteria, access requirements, and support arrangements are agreed before implementation.
+## Discuss Your Project
 
-## Discuss a Project
+Email [admin@zaryndata.onmicrosoft.com](mailto:admin@zaryndata.onmicrosoft.com) with your business challenge, source systems, and desired timeline.
 
-Have a data integration, reporting, or automation challenge? Email [admin@zaryndata.onmicrosoft.com](mailto:admin@zaryndata.onmicrosoft.com) to discuss a scoped assessment or pilot.
-
-Include:
-- Your industry and main integration or reporting challenge
-- The source systems involved, without sensitive details
-- Your desired timeline
-
-Please do not send passwords, access tokens, or confidential datasets in an initial inquiry.
+Please send only a high-level overview initially. Do not send passwords, access tokens, personal information, or confidential datasets.
 
 ---
-Zaryn Data Engineering | Manufacturing & Wholesale Distribution | Microsoft Data Stack
+Zaryn Data Engineering | Independent Project Delivery | Manufacturing & Wholesale Distribution
